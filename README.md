@@ -100,13 +100,13 @@ OR
 #### Match at the beginning or the end of a word
     Find a match at the beginning/end of a word
 ```javaScript
-/\bgoogle/g
+/\bx/g
 ```
 
 OR
     Find a match not at the beginning/end of a word
 ```javaScript
-/\Bgoogle/g
+/\Bx/g
 ```
 #### Find a NUL character
     \0 returns the position where the NUL character was found. If no match is found, it returns -1.
