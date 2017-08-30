@@ -168,11 +168,11 @@ OR
 ```javaScript
 /^n/g
 ```
-#### Matches any string that is followed by a specific string n
+#### Matches any string that is followed by a specific string n (positive look ahead)
 ```javaScript
 /?=n/g
 ```
-#### Matches any string that is not followed by a specific string n
+#### Matches any string that is not followed by a specific string n (negative look ahead)
 ```javaScript
 /?!n/g
 ```
